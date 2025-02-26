@@ -1,0 +1,459 @@
+2025-02-25T12:06:50.456Z  INFO 2720 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 2720 (D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie)
+2025-02-25T12:06:50.466Z  INFO 2720 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T12:06:50.564Z  INFO 2720 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T12:06:50.566Z  INFO 2720 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T12:06:52.422Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:06:52.426Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T12:06:52.500Z  INFO 2720 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.products.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:06:52.504Z  INFO 2720 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.purchases.repository.PurchaseRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:06:52.508Z  INFO 2720 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.sales.repository.SaleRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:06:52.509Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T12:06:52.520Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:06:52.521Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T12:06:52.587Z  INFO 2720 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2025-02-25T12:06:53.737Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T12:06:53.756Z  INFO 2720 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T12:06:53.757Z  INFO 2720 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T12:06:53.839Z  INFO 2720 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T12:06:53.839Z  INFO 2720 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3270 ms
+2025-02-25T12:06:53.989Z  INFO 2720 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T12:06:54.297Z  INFO 2720 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T12:06:54.300Z  INFO 2720 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T12:06:54.313Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T12:06:54.438Z DEBUG 2720 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T12:06:54.605Z  INFO 2720 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T12:06:54.702Z  INFO 2720 --- [stock-ms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-02-25T12:06:54.748Z  INFO 2720 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T12:06:55.222Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T12:06:55.305Z  WARN 2720 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T12:06:55.337Z  INFO 2720 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T12:06:57.110Z  INFO 2720 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T12:06:57.322Z  INFO 2720 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:07:00.105Z  WARN 2720 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T12:07:00.734Z DEBUG 2720 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2025-02-25T12:07:01.242Z DEBUG 2720 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T12:07:01.441Z DEBUG 2720 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T12:07:01.728Z DEBUG 2720 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T12:07:07.359Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T12:07:07.397Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T12:07:07.673Z  INFO 2720 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T12:07:07.732Z  INFO 2720 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 18.184 seconds (process running for 18.909)
+2025-02-25T12:08:24.860Z  INFO 2720 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T12:08:26.354Z  INFO 2720 --- [stock-ms] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T12:08:26.362Z  INFO 2720 --- [stock-ms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:08:26.377Z  WARN 2720 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-25T12:08:26.379Z  INFO 2720 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T12:08:26.383Z  INFO 2720 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T12:08:43.898Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 12824 (D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie)
+2025-02-25T12:08:43.906Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T12:08:43.998Z  INFO 12824 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T12:08:43.999Z  INFO 12824 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T12:08:47.038Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:08:47.063Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T12:08:47.478Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.products.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:08:47.506Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.purchases.repository.PurchaseRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:08:47.543Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.sales.repository.SaleRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:08:47.557Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 439 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T12:08:47.654Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:08:47.698Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T12:08:48.013Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272 ms. Found 3 JPA repository interfaces.
+2025-02-25T12:08:51.224Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T12:08:51.288Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T12:08:51.291Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T12:08:51.688Z  INFO 12824 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T12:08:51.741Z  INFO 12824 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7740 ms
+2025-02-25T12:08:52.552Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T12:08:53.714Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T12:08:53.723Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T12:08:53.768Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T12:08:54.172Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T12:08:54.732Z  INFO 12824 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T12:08:55.018Z  INFO 12824 --- [stock-ms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-02-25T12:08:55.158Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T12:08:56.238Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T12:08:56.447Z  WARN 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T12:08:56.553Z  INFO 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T12:09:00.574Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T12:09:00.761Z  INFO 12824 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:09:03.506Z  WARN 12824 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T12:09:04.029Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2025-02-25T12:09:04.691Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T12:09:04.895Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T12:09:05.122Z DEBUG 12824 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T12:09:08.338Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T12:09:08.402Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T12:09:08.739Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T12:09:08.817Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 25.741 seconds (process running for 27.255)
+2025-02-25T12:09:22.826Z  INFO 12824 --- [stock-ms] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25T12:09:22.827Z  INFO 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-25T12:09:22.829Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-25T12:09:22.830Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-25T12:09:22.830Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-25T12:09:22.834Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@27a41d5c
+2025-02-25T12:09:22.835Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2179fdce
+2025-02-25T12:09:22.836Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-25T12:09:22.837Z  INFO 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-02-25T12:09:22.890Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/products", parameters={}
+2025-02-25T12:09:22.909Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.stock.products.controller.ProductController#allProducts()
+2025-02-25T12:09:23.440Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/x-jackson-smile, application/cbor, application/yaml]
+2025-02-25T12:09:23.445Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[]]
+2025-02-25T12:09:23.528Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-25T12:09:27.887Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/products", parameters={}
+2025-02-25T12:09:27.889Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.stock.products.controller.ProductController#saveProduct(ProductDtoRequest)
+2025-02-25T12:09:28.020Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.isi.stock.products.dto.ProductDtoRequest@334a3b25]
+2025-02-25T12:09:28.296Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/x-jackson-smile, application/cbor, application/yaml]
+2025-02-25T12:09:28.297Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.stock.products.dto.ProductDtoResponse@38866208]
+2025-02-25T12:09:28.302Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2025-02-25T12:09:34.776Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/products/alimentaire", parameters={}
+2025-02-25T12:09:34.779Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.stock.products.controller.ProductController#getProduct(String)
+2025-02-25T12:09:34.792Z  INFO 12824 --- [stock-ms] [http-nio-8080-exec-4] c.i.s.p.service.impl.ProductServiceImpl  : getProductByRef: alimentaire
+2025-02-25T12:09:34.805Z ERROR 12824 --- [stock-ms] [http-nio-8080-exec-4] com.isi.stock.config.LoggingAspect       : Exception in com.isi.stock.products.controller.ProductController.getProduct() with message = Requested Product with id = alimentaire does not exist
+2025-02-25T12:09:34.809Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.stock.exception.ApiExceptionHandler#handleEntityNotFoundException(EntityNotFoundException)
+2025-02-25T12:09:34.827Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/x-jackson-smile, application/cbor, application/yaml]
+2025-02-25T12:09:34.828Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.stock.exception.ApiException@49b7be64]
+2025-02-25T12:09:34.832Z  WARN 12824 --- [stock-ms] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.isi.stock.exception.EntityNotFoundException: Requested Product with id = alimentaire does not exist]
+2025-02-25T12:09:34.834Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-02-25T12:09:48.669Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/products/electronic", parameters={}
+2025-02-25T12:09:48.670Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.stock.products.controller.ProductController#getProduct(String)
+2025-02-25T12:09:48.672Z  INFO 12824 --- [stock-ms] [http-nio-8080-exec-5] c.i.s.p.service.impl.ProductServiceImpl  : getProductByRef: electronic
+2025-02-25T12:09:48.702Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/x-jackson-smile, application/cbor, application/yaml]
+2025-02-25T12:09:48.703Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.stock.products.dto.ProductDtoResponse@1e284fa0]
+2025-02-25T12:09:48.707Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-25T12:09:53.189Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : DELETE "/products/sorgho", parameters={}
+2025-02-25T12:09:53.191Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.isi.stock.products.controller.ProductController#deleteProduct(String)
+2025-02-25T12:09:53.198Z ERROR 12824 --- [stock-ms] [http-nio-8080-exec-6] com.isi.stock.config.LoggingAspect       : Exception in com.isi.stock.products.controller.ProductController.deleteProduct() with message = Requested Product with id = sorgho does not exist
+2025-02-25T12:09:53.203Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler com.isi.stock.exception.ApiExceptionHandler#handleEntityNotFoundException(EntityNotFoundException)
+2025-02-25T12:09:53.205Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/x-jackson-smile, application/cbor, application/yaml]
+2025-02-25T12:09:53.207Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.isi.stock.exception.ApiException@50732604]
+2025-02-25T12:09:53.209Z  WARN 12824 --- [stock-ms] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.isi.stock.exception.EntityNotFoundException: Requested Product with id = sorgho does not exist]
+2025-02-25T12:09:53.211Z DEBUG 12824 --- [stock-ms] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-02-25T12:10:29.089Z  INFO 12824 --- [stock-ms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 37 class path changes (0 additions, 35 deletions, 2 modifications)
+2025-02-25T12:10:29.100Z  INFO 12824 --- [stock-ms] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T12:10:32.750Z  INFO 12824 --- [stock-ms] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T12:10:32.764Z  INFO 12824 --- [stock-ms] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:10:32.786Z  WARN 12824 --- [stock-ms] [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-25T12:10:32.788Z  INFO 12824 --- [stock-ms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T12:10:32.795Z  INFO 12824 --- [stock-ms] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-25T12:10:32.987Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 12824 (D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie)
+2025-02-25T12:10:32.988Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T12:10:33.917Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:10:33.918Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T12:10:33.924Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T12:10:33.937Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:10:33.938Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T12:10:33.944Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-02-25T12:10:34.386Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T12:10:34.387Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T12:10:34.388Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T12:10:34.495Z  INFO 12824 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T12:10:34.496Z  INFO 12824 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2025-02-25T12:10:34.709Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-25T12:10:34.717Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T12:10:34.718Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-25T12:10:34.719Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T12:10:34.823Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T12:10:34.913Z  INFO 12824 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T12:10:34.922Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T12:10:34.960Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T12:10:34.965Z  WARN 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T12:10:34.967Z  INFO 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T12:10:35.020Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T12:10:35.022Z  INFO 12824 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:10:35.311Z  WARN 12824 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T12:10:35.518Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-02-25T12:10:35.712Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T12:10:35.769Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T12:10:35.832Z DEBUG 12824 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T12:10:36.773Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T12:10:36.797Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T12:10:36.890Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T12:10:36.928Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 4.029 seconds (process running for 115.367)
+2025-02-25T12:10:36.943Z  INFO 12824 --- [stock-ms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   MessageSourceAutoConfiguration matched:
+      - ResourceBundle found bundle file [D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes\messages.properties] (MessageSourceAutoConfiguration.ResourceBundleCondition)
+      - @ConditionalOnMissingBean (names: messageSource; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-02-25T12:10:39.473Z  INFO 12824 --- [stock-ms] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 35 class path changes (35 additions, 0 deletions, 0 modifications)
+2025-02-25T12:10:39.477Z  INFO 12824 --- [stock-ms] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T12:10:43.531Z  INFO 12824 --- [stock-ms] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T12:10:43.542Z  INFO 12824 --- [stock-ms] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:10:43.545Z  WARN 12824 --- [stock-ms] [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-25T12:10:43.550Z  INFO 12824 --- [stock-ms] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-25T12:10:43.556Z  INFO 12824 --- [stock-ms] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-25T12:10:43.760Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 12824 (D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie)
+2025-02-25T12:10:43.761Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T12:10:44.870Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:10:44.870Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T12:10:44.900Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.products.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:10:44.905Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.purchases.repository.PurchaseRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:10:44.909Z  INFO 12824 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.sales.repository.SaleRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T12:10:44.910Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T12:10:44.921Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T12:10:44.921Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T12:10:44.978Z  INFO 12824 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2025-02-25T12:10:45.660Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T12:10:45.664Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T12:10:45.665Z  INFO 12824 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T12:10:45.784Z  INFO 12824 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T12:10:45.792Z  INFO 12824 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2024 ms
+2025-02-25T12:10:46.017Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-02-25T12:10:46.023Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T12:10:46.024Z  INFO 12824 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-02-25T12:10:46.025Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T12:10:46.147Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T12:10:46.289Z  INFO 12824 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T12:10:46.297Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T12:10:46.338Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T12:10:46.351Z  WARN 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T12:10:46.496Z  INFO 12824 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T12:10:47.558Z  INFO 12824 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T12:10:47.734Z  INFO 12824 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:10:50.304Z  WARN 12824 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T12:10:50.703Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2025-02-25T12:10:51.039Z DEBUG 12824 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T12:10:51.130Z DEBUG 12824 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T12:10:51.217Z DEBUG 12824 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T12:10:52.491Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T12:10:52.517Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T12:10:52.643Z  INFO 12824 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T12:10:52.692Z  INFO 12824 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 9.022 seconds (process running for 131.132)
+2025-02-25T12:10:52.699Z  INFO 12824 --- [stock-ms] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: messageSource; SearchStrategy: current) found beans named messageSource (OnBeanCondition)
+      Matched:
+         - ResourceBundle found bundle file [D:\MASTER_II_GL\JEE\devoir\stock-ms - Copie\target\classes\messages.properties] (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-02-25T12:11:23.982Z  INFO 12824 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T12:11:25.642Z  INFO 12824 --- [stock-ms] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T12:11:25.646Z  INFO 12824 --- [stock-ms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T12:11:25.650Z  WARN 12824 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-25T12:11:25.652Z  INFO 12824 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-02-25T12:11:25.653Z  INFO 12824 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-02-25T18:32:14.813Z  INFO 16836 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 16836 (D:\MASTER_II_GL\JEE\devoir\stock-ms - withELK_V02\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - withELK_V02)
+2025-02-25T18:32:14.821Z  INFO 16836 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T18:32:14.948Z  INFO 16836 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T18:32:14.949Z  INFO 16836 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T18:32:18.026Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T18:32:18.033Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T18:32:18.136Z  INFO 16836 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.products.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T18:32:18.142Z  INFO 16836 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.purchases.repository.PurchaseRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T18:32:18.148Z  INFO 16836 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.sales.repository.SaleRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T18:32:18.151Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T18:32:18.176Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T18:32:18.180Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T18:32:18.312Z  INFO 16836 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 3 JPA repository interfaces.
+2025-02-25T18:32:20.290Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T18:32:20.330Z  INFO 16836 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T18:32:20.331Z  INFO 16836 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T18:32:20.553Z  INFO 16836 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T18:32:20.555Z  INFO 16836 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5604 ms
+2025-02-25T18:32:20.918Z  INFO 16836 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T18:32:21.412Z  INFO 16836 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T18:32:21.419Z  INFO 16836 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T18:32:21.440Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T18:32:21.609Z DEBUG 16836 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T18:32:21.837Z  INFO 16836 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T18:32:22.131Z  INFO 16836 --- [stock-ms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-02-25T18:32:22.280Z  INFO 16836 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T18:32:22.844Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T18:32:22.952Z  WARN 16836 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T18:32:22.996Z  INFO 16836 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T18:32:24.531Z  INFO 16836 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T18:32:24.634Z  INFO 16836 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T18:32:25.769Z  WARN 16836 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T18:32:26.014Z DEBUG 16836 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2025-02-25T18:32:26.329Z DEBUG 16836 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T18:32:26.451Z DEBUG 16836 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T18:32:26.634Z DEBUG 16836 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T18:32:28.736Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T18:32:28.757Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T18:32:28.924Z  INFO 16836 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T18:32:28.979Z  INFO 16836 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 15.142 seconds (process running for 16.569)
+2025-02-25T20:24:24.590Z  INFO 18688 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Starting StockMsApplication using Java 17.0.12 with PID 18688 (D:\MASTER_II_GL\JEE\devoir\stock-ms - withELK_V02\target\classes started by LENOVO in D:\MASTER_II_GL\JEE\devoir\stock-ms - withELK_V02)
+2025-02-25T20:24:24.600Z  INFO 18688 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-02-25T20:24:24.748Z  INFO 18688 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-25T20:24:24.749Z  INFO 18688 --- [stock-ms] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-25T20:24:28.192Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T20:24:28.201Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2025-02-25T20:24:28.316Z  INFO 18688 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.products.repository.ProductRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T20:24:28.322Z  INFO 18688 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.purchases.repository.PurchaseRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T20:24:28.327Z  INFO 18688 --- [stock-ms] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.isi.stock.sales.repository.SaleRepository; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2025-02-25T20:24:28.329Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 0 Elasticsearch repository interfaces.
+2025-02-25T20:24:28.354Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-02-25T20:24:28.358Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25T20:24:28.495Z  INFO 18688 --- [stock-ms] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 3 JPA repository interfaces.
+2025-02-25T20:24:30.589Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-25T20:24:30.616Z  INFO 18688 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-25T20:24:30.617Z  INFO 18688 --- [stock-ms] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-02-25T20:24:30.775Z  INFO 18688 --- [stock-ms] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-25T20:24:30.778Z  INFO 18688 --- [stock-ms] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6023 ms
+2025-02-25T20:24:31.028Z  INFO 18688 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-25T20:24:31.458Z  INFO 18688 --- [stock-ms] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:stock-db user=USER
+2025-02-25T20:24:31.462Z  INFO 18688 --- [stock-ms] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-25T20:24:31.488Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:stock-db'
+2025-02-25T20:24:31.682Z DEBUG 18688 --- [stock-ms] [restartedMain] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-02-25T20:24:31.917Z  INFO 18688 --- [stock-ms] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25T20:24:32.051Z  INFO 18688 --- [stock-ms] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-02-25T20:24:32.127Z  INFO 18688 --- [stock-ms] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-02-25T20:24:32.669Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25T20:24:32.812Z  WARN 18688 --- [stock-ms] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25T20:24:33.011Z  INFO 18688 --- [stock-ms] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-02-25T20:24:34.927Z  INFO 18688 --- [stock-ms] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25T20:24:35.122Z  INFO 18688 --- [stock-ms] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T20:24:36.289Z  WARN 18688 --- [stock-ms] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25T20:24:36.572Z DEBUG 18688 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+2025-02-25T20:24:36.836Z DEBUG 18688 --- [stock-ms] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-02-25T20:24:36.921Z DEBUG 18688 --- [stock-ms] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-25T20:24:37.032Z DEBUG 18688 --- [stock-ms] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-25T20:24:38.839Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-25T20:24:38.861Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-02-25T20:24:39.011Z  INFO 18688 --- [stock-ms] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-02-25T20:24:39.051Z  INFO 18688 --- [stock-ms] [restartedMain] com.isi.stock.StockMsApplication         : Started StockMsApplication in 15.582 seconds (process running for 16.901)
+2025-02-25T20:26:24.378Z  INFO 18688 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-02-25T20:26:25.977Z  INFO 18688 --- [stock-ms] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-02-25T20:26:25.997Z  INFO 18688 --- [stock-ms] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25T20:26:26.050Z  WARN 18688 --- [stock-ms] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-02-25T20:26:26.052Z  INFO 18688 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-25T20:26:26.060Z  INFO 18688 --- [stock-ms] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+25-02-2025 20:46:14.492 [http-nio-8080-exec-2] INFO  c.i.s.p.controller.ProductController.allProducts - Récupération de tous les produits
+25-02-2025 20:46:15.586 [http-nio-8080-exec-2] WARN  c.i.s.p.controller.ProductController.allProducts - Aucun produit trouvé dans la base de données
+25-02-2025 21:10:16.847 [http-nio-8080-exec-5] INFO  c.i.s.p.controller.ProductController.saveProduct - Tentative de sauvegarde du produit : com.isi.stock.products.dto.ProductDtoRequest@112bd291
+25-02-2025 21:10:17.772 [http-nio-8080-exec-5] INFO  c.i.s.p.controller.ProductController.saveProduct - Produit sauvegardé avec succès : com.isi.stock.products.dto.ProductDtoResponse@6c023927
+25-02-2025 21:10:22.933 [http-nio-8080-exec-6] INFO  c.i.s.p.controller.ProductController.getProduct - Récupération du produit avec la référence : electronic
+25-02-2025 21:10:23.207 [http-nio-8080-exec-6] INFO  c.i.s.p.controller.ProductController.getProduct - Produit trouvé : com.isi.stock.products.dto.ProductDtoResponse@d0f87cc
+25-02-2025 21:11:28.800 [http-nio-8080-exec-9] INFO  c.i.s.p.controller.ProductController.saveProduct - Tentative de sauvegarde du produit : com.isi.stock.products.dto.ProductDtoRequest@11a2be32
+25-02-2025 23:47:59.106 [http-nio-8080-exec-2] INFO  c.i.s.p.controller.ProductController.saveProduct - Tentative de sauvegarde du produit : com.isi.stock.products.dto.ProductDtoRequest@1e3bb51f
+25-02-2025 23:48:01.334 [http-nio-8080-exec-2] INFO  c.i.s.p.controller.ProductController.saveProduct - Produit sauvegardé avec succès : com.isi.stock.products.dto.ProductDtoResponse@c2fbfe5
+25-02-2025 23:48:04.540 [http-nio-8080-exec-3] INFO  c.i.s.p.controller.ProductController.saveProduct - Tentative de sauvegarde du produit : com.isi.stock.products.dto.ProductDtoRequest@453be9cb
+25-02-2025 23:48:04.567 [http-nio-8080-exec-3] INFO  c.i.s.p.controller.ProductController.saveProduct - Produit sauvegardé avec succès : com.isi.stock.products.dto.ProductDtoResponse@9439ac
+25-02-2025 23:48:08.756 [http-nio-8080-exec-4] INFO  c.i.s.p.controller.ProductController.saveProduct - Tentative de sauvegarde du produit : com.isi.stock.products.dto.ProductDtoRequest@6c51f9c1
+25-02-2025 23:48:12.621 [http-nio-8080-exec-6] INFO  c.i.s.p.controller.ProductController.allProducts - Récupération de tous les produits
+25-02-2025 23:48:12.655 [http-nio-8080-exec-6] INFO  c.i.s.p.controller.ProductController.allProducts - Nombre de produits trouvés : 2
+25-02-2025 23:48:19.331 [http-nio-8080-exec-7] INFO  c.i.s.p.c.PurchaseController.getPurchases - Récupération de tous les achats...
+25-02-2025 23:48:19.380 [http-nio-8080-exec-7] WARN  c.i.s.p.c.PurchaseController.getPurchases - Aucun achat trouvé
+25-02-2025 23:48:28.788 [http-nio-8080-exec-8] INFO  c.i.s.p.c.PurchaseController.savePurchase - Tentative de sauvegarde d'un achat : com.isi.stock.purchases.dto.PurchaseDtoRequest@5fae3d17
+25-02-2025 23:48:48.749 [http-nio-8080-exec-9] INFO  c.i.s.p.c.PurchaseController.savePurchase - Tentative de sauvegarde d'un achat : com.isi.stock.purchases.dto.PurchaseDtoRequest@3e1ae97b
+25-02-2025 23:48:49.250 [http-nio-8080-exec-9] INFO  c.i.s.p.c.PurchaseController.savePurchase - Achat sauvegardé avec succès : com.isi.stock.purchases.dto.PurchaseDtoResponse@5966ad76
+25-02-2025 23:48:53.381 [http-nio-8080-exec-10] INFO  c.i.s.p.c.PurchaseController.savePurchase - Tentative de sauvegarde d'un achat : com.isi.stock.purchases.dto.PurchaseDtoRequest@d6846d2
+25-02-2025 23:48:53.474 [http-nio-8080-exec-10] INFO  c.i.s.p.c.PurchaseController.savePurchase - Achat sauvegardé avec succès : com.isi.stock.purchases.dto.PurchaseDtoResponse@6f4655bd
+25-02-2025 23:48:55.717 [http-nio-8080-exec-1] INFO  c.i.s.p.c.PurchaseController.savePurchase - Tentative de sauvegarde d'un achat : com.isi.stock.purchases.dto.PurchaseDtoRequest@91dc9e2
+25-02-2025 23:48:55.733 [http-nio-8080-exec-1] INFO  c.i.s.p.c.PurchaseController.savePurchase - Achat sauvegardé avec succès : com.isi.stock.purchases.dto.PurchaseDtoResponse@62d98565
+25-02-2025 23:48:59.184 [http-nio-8080-exec-2] INFO  c.i.s.p.c.PurchaseController.getPurchases - Récupération de tous les achats...
+25-02-2025 23:48:59.233 [http-nio-8080-exec-2] INFO  c.i.s.p.c.PurchaseController.getPurchases - Nombre d'achats récupérés : 3
+25-02-2025 23:49:05.893 [http-nio-8080-exec-3] INFO  c.i.s.s.controller.SaleController.getAllSales - Récupération de toutes les ventes...
+25-02-2025 23:49:05.934 [http-nio-8080-exec-3] WARN  c.i.s.s.controller.SaleController.getAllSales - Aucune vente trouvée
+25-02-2025 23:49:14.187 [http-nio-8080-exec-4] INFO  c.i.s.s.controller.SaleController.saveSale - Tentative de sauvegarde d'une vente : com.isi.stock.sales.dto.SaleDtoRequest@7e342ab6
+25-02-2025 23:49:23.955 [http-nio-8080-exec-5] INFO  c.i.s.s.controller.SaleController.saveSale - Tentative de sauvegarde d'une vente : com.isi.stock.sales.dto.SaleDtoRequest@6e19a8b9
+25-02-2025 23:49:24.134 [http-nio-8080-exec-5] INFO  c.i.s.s.controller.SaleController.saveSale - Vente enregistrée avec succès : com.isi.stock.sales.dto.SaleDtoResponse@1fa8dff4
+25-02-2025 23:49:26.885 [http-nio-8080-exec-6] INFO  c.i.s.s.controller.SaleController.saveSale - Tentative de sauvegarde d'une vente : com.isi.stock.sales.dto.SaleDtoRequest@417edaf6
+25-02-2025 23:49:26.905 [http-nio-8080-exec-6] INFO  c.i.s.s.controller.SaleController.saveSale - Vente enregistrée avec succès : com.isi.stock.sales.dto.SaleDtoResponse@6f3d4f36
+25-02-2025 23:49:30.753 [http-nio-8080-exec-7] INFO  c.i.s.s.controller.SaleController.getAllSales - Récupération de toutes les ventes...
+25-02-2025 23:49:30.796 [http-nio-8080-exec-7] INFO  c.i.s.s.controller.SaleController.getAllSales - Nombre de ventes récupérées : 2
